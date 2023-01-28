@@ -1,9 +1,9 @@
-package cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.controllers;
+package S05T02N01.MONGODB.controllers;
 
-import cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.domain.Jugador;
-import cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.domain.Partida;
-import cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.repository.GameRepository;
-import cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.services.GameService;
+import S05T02N01.MONGODB.model.domain.Jugador;
+import S05T02N01.MONGODB.model.domain.Partida;
+import S05T02N01.MONGODB.model.repository.GameRepository;
+import S05T02N01.MONGODB.model.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

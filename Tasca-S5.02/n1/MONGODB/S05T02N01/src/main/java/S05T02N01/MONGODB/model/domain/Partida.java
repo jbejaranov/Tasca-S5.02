@@ -1,7 +1,6 @@
-package cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.domain;
+package S05T02N01.MONGODB.model.domain;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 @Data
 public class Partida {

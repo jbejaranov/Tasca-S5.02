@@ -1,10 +1,10 @@
-package cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.repository;
+package S05T02N01.MONGODB.model.repository;
 
-import cat.itacademy.barcelonactiva.BejaranoVizuete.Juan.s05.t01.n01.model.domain.Jugador;
+import S05T02N01.MONGODB.model.domain.Jugador;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface GameRepository extends MongoRepository <Jugador,String>{
+public interface GameRepository extends MongoRepository<Jugador,String> {
 
 }
